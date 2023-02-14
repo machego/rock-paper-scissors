@@ -1,0 +1,72 @@
+body {
+    margin: 0;
+    text-align: center;
+    height: 100vh;
+    background: black;
+}
+
+@font-face {
+    font-family: 'Space';
+    src: url(Space.ttf);
+}
+
+.container {
+    
+    color: whitesmoke;
+    max-width: 100%;
+    margin: auto;
+}
+
+h2 {
+    font-family: Space;
+}
+
+button {
+    border: 1px solid black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+    font-weight: bold;
+    font-size: 46px;
+    width: 100px;
+    height: 150px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+#rock {
+    background: rgb(181, 176, 176);
+}
+
+#rock:hover {
+    background-color: white;  
+}
+
+#paper{
+    background: rgb(181, 176, 176);
+}
+
+#paper:hover {
+    background-color: white;  
+}
+
+#scissors{
+    background: rgb(181, 176, 176);
+}
+
+#scissors:hover {
+    background-color: white;  
+}
+
+.text {
+    font-size: 1rem;   
+}
+
+.computer {
+     color: grey;
+}
+
+
+
+
+
